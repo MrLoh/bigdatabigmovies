@@ -1,10 +1,23 @@
-$lightgray: #DEDEDE;
+// $lightgray: #DEDEDE;
+// $gray: #555;
+$lightgray: #555;
+$gray: #EEE;
+
 $orange: #FEAC09;
 $blue: #259DFF;
-$gray: #555;
+
 $pagewidth: 40rem;
+
 $scfont: "ff-meta-sc-web-pro", sans-serif;
 $font: "ff-meta-web-pro", sans-serif;
+
+@mixin clearfix() {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
 
 html, body {
 	padding:0;
@@ -97,6 +110,9 @@ main {
 	section {
 		position: relative;
 		border-bottom: 1px solid $gray;
+		padding-bottom: 2rem;
+		margin-bottom: 4rem;
+		@include clearfix();
 	}
 	ul.portraits {
 		list-style-type: none;

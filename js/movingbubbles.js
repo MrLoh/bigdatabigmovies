@@ -15,7 +15,7 @@ var bubbleOptions = {
 	hueRand        : 20,    //The hue variance
 	saturation     : 0,    //The saturation
 	saturationRand : 0,    //The saturation variance
-	light          : 95,    //The lightness
+	light          : 40,    //The lightness
 	lightRand      : 10,    //The lightness variance
 	opacityFactor  : 2,     //What Math.random() opacity should be divided by
 	minOpacity     : 0.2,   //The minimum opacity
@@ -150,21 +150,17 @@ Bubble.prototype.create = function() {
  */
 Bubble.prototype.move = function() {
 	//If out of the window bounds recreate the bubble
-	if(this.x + this.diam < 0 || this.x > window.innerWidth ||
-	   this.y + this.diam < 0 || this.y - this.diam > window.innerHeight) {
+	if(this.x + this.diam < 0 || this.x > window.innerWidth || this.y + this.diam < 0 || this.y - this.diam > window.innerHeight) {
 		this.create();
 	} else {
 		//Set opacity
 		if(this.time < 11) this.e.style.opacity = (this.time / 10);
-
 		//Change position
 		this.x += this.xVel;
 		this.y += this.yVel;
-
 		//Set the position via CSS
 		this.e.style.left = Math.floor(this.x) + "px";
 		this.e.style.top = Math.floor(this.y) + "px";
-
 		//Increment counter
 		this.time++;
 	}
