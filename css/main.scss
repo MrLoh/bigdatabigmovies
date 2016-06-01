@@ -109,6 +109,23 @@ a {
 		font-size: 1.5rem;
 		text-transform: uppercase;
 	}
+
+	.hero {
+		width: 95%;
+		margin: 2rem auto 1rem auto;
+		max-width: 70rem;
+	}
+
+	.date {
+		font-weight: bold;
+		font-family: $scfont;
+		font-size: 2rem;
+		text-transform: lowercase;
+	}
+}
+
+.pitch {
+	font-size: 1.2rem;
 }
 
 main {

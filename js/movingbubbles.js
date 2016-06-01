@@ -22,7 +22,7 @@ var bubbleOptions = {
 	ratio          : 100000, //The bubble:pixel ratio
 	minDiam        : 400,
 	minDiamRand    : 1,
-	vel            : 0.025,
+	vel            : 0.1,
 	update		   : function(tick) { //Function to change the tick timer
 		if(!document.addEventListener) return;
 		window.clearInterval(this.timer);
