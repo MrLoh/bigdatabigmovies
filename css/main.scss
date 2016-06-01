@@ -3,14 +3,15 @@ $orange: #FEAC09;
 $blue: #259DFF;
 $gray: #555;
 $pagewidth: 40rem;
-
+$scfont: "ff-meta-sc-web-pro", sans-serif;
+$font: "ff-meta-web-pro", sans-serif;
 
 html, body {
 	padding:0;
 	margin:0;
 	min-height:100%;
 	background-color: $lightgray;
-	font-family: , sans-serif;
+	font-family: $font;
 	font-size: 16px;
 	color: $gray;
 }
@@ -76,7 +77,7 @@ a {
 		color: $gray;
 	}
 	h3 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	h1 {
 		font-size: 4rem;
@@ -96,6 +97,12 @@ main {
 	section {
 		position: relative;
 		border-bottom: 1px solid $gray;
+	}
+	ul.portraits {
+		list-style-type: none;
+		.institution {
+			font-family: $scfont;
+		}
 	}
 }
 
