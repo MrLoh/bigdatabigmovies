@@ -55,22 +55,43 @@ html * {
 	color: $blue;
 }
 
-.left, .right {
-	float: left;
-	width: 50%;
+.container {
+	@include clearfix();
 }
+
+.col {
+	float: left;
+
+	&.col-2 {
+		width: 50%
+	}
+
+	&.col-3 {
+		width: 33%
+	}
+
+	&.col-4 {
+		width: 25%;
+	}
+
+	img {
+		max-width: 7rem;
+	}
+}
+
 
 a {
 	color: inherit;
 	transition: all .5s;
 
 	&.button {
-		background: $blue;
+		background-image: none;
+		background-color: $foreground;
 		border-radius: 1rem;
 		padding: 0.5rem 1rem;
 		color: $background;
 		font-family: inherit;
-		font-size: inherit;
+		font-size: 1.3rem;
 		font-weight: bold;
 		box-shadow: none;
 		text-decoration: none;
@@ -80,7 +101,7 @@ a {
 		margin-top: 2rem;
 
 		&:hover, &:focus  {
-			background: $orange;
+			background-image: linear-gradient(to bottom right, $orange, $orange 50%, $blue 50%, $blue);
 			color: $background;
 		}
 	}
@@ -88,7 +109,7 @@ a {
 
 .title {
 	text-align: center;
-	margin: 2rem 0 4rem 0;
+	margin: 1.5rem 0 4rem 0;
 
 	h1, h2, h3 {
 		margin: 0;
@@ -96,13 +117,13 @@ a {
 	}
 
 	h3 {
+		margin-bottom: -0.5rem;
 		font-size: 1.5rem;
 	}
 
 	h1 {
 		font-size: 4rem;
 		font-weight: bold;
-		margin-bottom: 0.5rem;
 	}
 
 	h2 {
@@ -112,19 +133,18 @@ a {
 
 	.hero {
 		width: 95%;
-		margin: 2rem auto 1rem auto;
-		max-width: 70rem;
+		margin: 1rem auto 0.5rem auto;
+		max-width: 60rem;
 	}
 
 	.date {
-		font-weight: bold;
-		font-family: $scfont;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		text-transform: lowercase;
 	}
 }
 
 .pitch {
+	margin-top: -2rem;
 	font-size: 1.2rem;
 }
 
@@ -145,11 +165,22 @@ main {
 			font-size: 2.5rem;
 		}
 
+		h2 {
+			font-size: 1.2rem;
+			margin: 0;
+		}
+
+		p {
+			margin: 0;
+		}
+
 		& > a {
+			display: block;
 			color: $blue;
 			font-weight: bold;
 			text-transform: uppercase;
 			text-decoration: none;
+			margin-top: 2rem;
 
 			&:hover, &:focus {
 				color: $orange;
@@ -166,40 +197,9 @@ main {
 		}
 	}
 
-	ul.icons {
-		@include clearfix();
-
-		li {
-			float: left;
-			width: 16rem;
-		}
+	.portraits {
 
 		img {
-			width: 5rem;
-		}
-
-		* {
-			margin: 0
-		}
-
-		.title {
-			font-size: 1.3rem;
-			font-weight: bold;
-		}
-	}
-
-	ul.portraits {
-		margin: 3rem 0;
-		@include clearfix();
-
-		li {
-			float: left;
-			width: 12rem;
-			font-weight: bold;
-		}
-
-		img {
-			width: 8rem;
 			border-radius: 50%;
 			border: 3px solid $foreground;
 		}
@@ -213,13 +213,36 @@ main {
 			font-family: $scfont;
 		}
 	}
+	.days {
+		max-width: 0.7*$pagewidth;
+		margin: 0 auto;
+		margin-top: -4rem;
 
-	.target-group {
-		div {
-			max-width: 15rem;
-			&.left { margin-left: 8rem; margin-right: 2rem; }
-			span * {
-				margin: 0
+		p { margin-top: 1rem; }
+		.button { margin-top: 2rem;}
+
+		.bubble {
+			display: block;
+			width: 11rem;
+			height: 11rem;
+			color: $background;
+			text-decoration: none;
+			border-radius: 50%;
+			box-sizing: border-box;
+			padding: 2.3rem 0;
+			margin: 0 auto;
+
+			* { margin: 0; }
+
+			&.industry { background: $blue; }
+			&.science { background: $orange; }
+
+			.link { text-decoration: underline; }
+
+			&:hover, &:focus {
+				background: $foreground;
+				&.industry { color: $blue; }
+				&.science { color: $orange; }
 			}
 		}
 	}
