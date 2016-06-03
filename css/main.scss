@@ -57,6 +57,7 @@ html * {
 
 .container {
 	@include clearfix();
+	text-align: center;
 }
 
 .col {
@@ -138,13 +139,14 @@ a {
 	}
 
 	.date {
-		font-size: 2.5rem;
-		text-transform: lowercase;
+		font-size: 1.4rem;
+		text-transform: none;
 	}
 }
 
 .pitch {
-	margin-top: -2rem;
+	margin-top: -3rem;
+	margin-bottom: 3rem;
 	font-size: 1.2rem;
 }
 
@@ -167,11 +169,12 @@ main {
 
 		h2 {
 			font-size: 1.2rem;
-			margin: 0;
+			margin: 0 0 0.5rem 0;
 		}
 
 		p {
 			margin: 0;
+			line-height: 1.2;
 		}
 
 		& > a {
@@ -204,9 +207,9 @@ main {
 			border: 3px solid $foreground;
 		}
 
-		* {
-			margin: 0;
-		}
+		// * {
+		// 	margin: 0;
+		// }
 
 		.institution {
 			font-size: 0.8rem;
@@ -218,7 +221,6 @@ main {
 		margin: 0 auto;
 		margin-top: -4rem;
 
-		p { margin-top: 1rem; }
 		.button { margin-top: 2rem;}
 
 		.bubble {
@@ -230,14 +232,15 @@ main {
 			border-radius: 50%;
 			box-sizing: border-box;
 			padding: 2.3rem 0;
-			margin: 0 auto;
-
-			* { margin: 0; }
+			margin: 0 auto 1rem auto;
 
 			&.industry { background: $blue; }
 			&.science { background: $orange; }
 
-			.link { text-decoration: underline; }
+			.link {
+				text-decoration: underline;
+				margin-top: 0.5rem;
+			}
 
 			&:hover, &:focus {
 				background: $foreground;
@@ -250,6 +253,12 @@ main {
 	.pitch {
 		ul li:before {
 			content: ">> ";
+		}
+
+		.logo {
+			height: 4rem;
+			margin: 1rem 0.5rem 2rem 0.5rem;
+			display: inline-block;
 		}
 	}
 }
