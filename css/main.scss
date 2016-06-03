@@ -127,6 +127,11 @@ nav {
 	box-shadow: 0.5rem rgba(black, 0.3);
 	margin: 0;
 
+	.nav-container {
+		max-width: $pagewidth;
+		margin: 0 auto;
+	}
+
 	ul {
 		list-style-type: none;
 		padding: 0.5rem;
@@ -275,7 +280,8 @@ main {
 	}
 	.days {
 		max-width: 0.7*$pagewidth;
-		margin: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: -4rem;
 
 		.button { margin-top: 2rem;}
@@ -307,15 +313,15 @@ main {
 		}
 	}
 
+	.logo {
+		height: 4.5rem;
+		margin: 1rem 0.5rem 2rem 0.5rem;
+		display: inline-block;
+	}
+
 	.pitch {
 		ul li:before {
 			content: ">> ";
-		}
-
-		.logo {
-			height: 4rem;
-			margin: 1rem 0.5rem 2rem 0.5rem;
-			display: inline-block;
 		}
 	}
 }
