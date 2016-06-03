@@ -83,10 +83,11 @@ html * {
 
 a {
 	color: inherit;
-	transition: all .5s;
+	transition: all .2s;
 
 	&.button {
 		background-image: none;
+		color: $background;
 		background-color: $foreground;
 		border-radius: 1rem;
 		padding: 0.5rem 1rem;
@@ -104,6 +105,62 @@ a {
 		&:hover, &:focus  {
 			background-image: linear-gradient(to bottom right, $orange, $orange 50%, $blue 50%, $blue);
 			color: $background;
+		}
+	}
+}
+
+header {
+	z-index: 4;
+}
+
+nav {
+	transition: all 0.5s;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	width: 100%;
+	background: $foreground;
+	color: $background;
+	font-size: 1rem;
+	font-weight: bold;
+	height: 3.5rem;
+	box-shadow: 0.5rem rgba(black, 0.3);
+	margin: 0;
+
+	ul {
+		list-style-type: none;
+		padding: 0.5rem;
+		margin: 0;
+
+		&.social-media {
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 1rem;
+		}
+
+		li {
+			display: inline-block;
+			padding: 0 0.5rem;
+			text-transform: uppercase;
+
+			&.logo {
+				margin-top: 0.1rem;
+				font-size: 1.2rem;
+				text-transform: none;
+			}
+		}
+
+		a {
+			text-decoration: none;
+
+			&:hover, &:focus {
+				color: $orange;
+			}
+		}
+
+		img {
+			height: 1.7rem;
 		}
 	}
 }
@@ -269,6 +326,18 @@ footer {
 	box-shadow: 0.5rem rgba(black, 0.3);
 	margin-top: 5rem;
 	padding: 2rem 0;
+
+	.logos {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+
+		img {
+			height: 3rem;
+			width: auto;
+		}
+	}
+
 	* {
 		width: 90%;
 		max-width: $pagewidth;

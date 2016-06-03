@@ -13,7 +13,19 @@
 </head>
 <body>
 <header>
-	<section class="title">
+	<nav>
+		<ul class="links">
+			<li class="logo"><a href="#home"><span class="science">BigData</span>.<span class="industry">BigMovies</span></a></li>
+			<li><a href="">Programme</a></li>
+			<li><a href="">Speakers</a></li>
+			<li><a href="#registration">Registration</a></li>
+		</ul>
+		<ul class="social-media">
+			<li><a href="https://twitter.com/erichpommerinst"><img src="img/social_twitter.svg"></a></li>
+			<li><a href="https://facebook.com/ErichPommerInstitut/"><img src="img/social_facebook.svg"></a></li>
+		</ul>
+	</nav>
+	<section class="title" id="home">
 		<h3>media.think.tank.2016</h3>
 		<h1><span class="science">BigData</span>.<span class="industry">BigMovies</span></h1>
 		<h2>How Algorithms Transform the Film &amp; TV Industry</h2>
@@ -104,7 +116,7 @@
 		</div>
 		<a href="">See full line-up of experts</a>
 	</section>
-	<section class="registration">
+	<section class="registration" id="registration">
 		<h1>Registration</h1>
 		<h2 class="science">Science Day | September 22 100€ </h2>
 		<p>(incl. catering, Studio Babelsberg Tour, and Networking Dinner)</p><br>
@@ -116,8 +128,26 @@
 </main>
 <footer>
 	<p>A conference by EPI, MCM, DFG, FBKW</p>
+	<ul class="logos">
+		<li><img src="img/hff_d.png"></li>
+		<li><img src="img/epi_d.png"></li>
+		<li><img src="img/mcm_d.png"></li>
+	</ul>
 </footer>
 
+<script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+	$("nav").css("top", "-80px");
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 470) {
+	        $("nav").css("top", 0);
+	    } else {
+	        $("nav").css("top", "-80px");
+	    }
+	});
+});
+</script>
 <script src="js/movingbubbles.js" type="text/javascript"></script>
 </body>
 </html>
