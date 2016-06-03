@@ -64,15 +64,18 @@ html * {
 	float: left;
 
 	&.col-2 {
-		width: 50%
+		width: 40%;
+		margin: 5%;
 	}
 
 	&.col-3 {
-		width: 33%
+		width: 28.333%;
+		margin: 2.5%;
 	}
 
 	&.col-4 {
-		width: 25%;
+		width: 22%;
+		margin: 1.5%;
 	}
 
 	img {
@@ -326,12 +329,14 @@ main {
 	}
 }
 
-footer {
+footer.container {
 	background: $foreground;
 	color: $background;
 	box-shadow: 0.5rem rgba(black, 0.3);
 	margin-top: 5rem;
 	padding: 2rem 0;
+
+	text-align: left;
 
 	.logos {
 		list-style-type: none;
