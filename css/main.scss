@@ -1,5 +1,3 @@
-// $background: #DEDEDE;
-// $foreground: #555;
 $background: #555;
 $foreground: #EEE;
 
@@ -10,6 +8,8 @@ $pagewidth: 48rem;
 
 $scfont: "ff-meta-sc-web-pro", sans-serif;
 $font: "ff-meta-web-pro", sans-serif;
+
+@import 'program';
 
 @mixin clearfix() {
 	&:after {
@@ -144,7 +144,7 @@ nav {
 			position: absolute;
 			top: 0;
 			right: 0;
-			padding: 1rem;
+			padding: 0.8rem 1rem;
 		}
 
 		li {

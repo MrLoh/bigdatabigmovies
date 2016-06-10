@@ -1,0 +1,393 @@
+{
+    "title": "Science Day",
+    "organizers": {
+        "description": "Hosted by Film University Babelsberg KONRAD WOLF and the Erich Pommer Institute, in cooperation with the Marketing Center Münster of the University of Münster and the DFG research unit 'Marketing of Hedonic Media Products in the Age of Digital Social Media'.",
+        "chairs": [{
+            "firstName": "Jannis",
+            "lastName": "Funk",
+            "position": "",
+            "institution": "Filmuniversität Babelsberg KONRAD WOLF",
+            "origin": "Potsdam/Berlin",
+            "confirmed": "",
+            "bio": "Jannis Funk is a producer in the German film industry and at the same time Ph.D. candidate at Film University Babelsberg, where he studied film and TV production from 2009 to 2014. He is the initiator of the “Big Data, Big Movies” conference. For him, creating worlds with film is the best and most privileged job of all.",
+            "id": "jannis_funk"
+        }, {
+            "firstName": "Thorsten",
+            "lastName": "Henning-Thurau",
+            "position": "",
+            "institution": "Westfälische Wilhelms-Universität",
+            "origin": "Münster",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    },
+    "description": [
+        "With the rise of digitalization, the film industry has been challenged by new opportunities and new players which have turned insights from smart analyses of big data into a central element of the industry’s value creation. Scholars from several disciplines, including marketing, management, and economics, have been exploring the power of big datasets and econometric models for some decades, but their insights have been largely overlooked by an industry that is traditionally characterized by Goldman’s “Nobody knows anything“ mantra. This conference intends to showcase key and novel findings from scholarly research that can provide rich insights into what is required to make successful films and TV series/shows these days. How can these insights be of value in an industry that is characterized by creativity and intuition?"
+    ],
+    "program": [{
+        "time": "9:00",
+        "type": "other",
+        "topic": "Welcome",
+        "description": "",
+        "speakers": [{
+            "firstName": "Jannis",
+            "lastName": "Funk",
+            "position": "",
+            "institution": "Filmuniversität Babelsberg KONRAD WOLF",
+            "origin": "Potsdam/Berlin",
+            "confirmed": "",
+            "bio": "Jannis Funk is a producer in the German film industry and at the same time Ph.D. candidate at Film University Babelsberg, where he studied film and TV production from 2009 to 2014. He is the initiator of the “Big Data, Big Movies” conference. For him, creating worlds with film is the best and most privileged job of all.",
+            "id": "jannis_funk"
+        }, {
+            "firstName": "Thorsten",
+            "lastName": "Henning-Thurau",
+            "position": "",
+            "institution": "Westfälische Wilhelms-Universität",
+            "origin": "Münster",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "9:15",
+        "type": "talk",
+        "topic": "What Do We (Think We) Know about Film Performance?",
+        "description": "",
+        "speakers": [{
+            "firstName": "Allègre",
+            "lastName": "Hadida",
+            "position": "",
+            "institution": "Cambridge University — joint work with Renaud Legoux and Francois Carrillat",
+            "origin": "Cambridge",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "9:45",
+        "type": "talk",
+        "topic": "How Critical are Expert Reviews in the Brave New World of Electronic Word of Mouth?",
+        "description": "",
+        "speakers": [{
+            "firstName": "Suman",
+            "lastName": "Basuroy",
+            "position": "",
+            "institution": "University of Texas San Antonio — joint work with S. Abraham Ravid & Bradley J. Allen",
+            "origin": "",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Richard",
+            "lastName": "Gretz",
+            "position": "",
+            "institution": "University of Texas San Antonio — joint work with S. Abraham Ravid & Bradley J. Allen",
+            "origin": "",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "10:15",
+        "type": "break",
+        "topic": "Coffee Break"
+    }, {
+        "time": "10:30",
+        "type": "talk",
+        "topic": "Super Hero or Super-Saturation - Movie Product Placement and Advertising Sales Effects",
+        "description": "",
+        "speakers": [{
+            "firstName": "Raoul",
+            "lastName": "Kübler",
+            "position": "",
+            "institution": "Özyeğin University Istanbul)",
+            "origin": "Istanbul",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Koen",
+            "lastName": "Pauwels",
+            "position": "",
+            "institution": "Özyeğin University Istanbul)",
+            "origin": "Istanbul",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "11:00",
+        "type": "talk",
+        "topic": "Understanding Movie Preferences from Big Data",
+        "description": "",
+        "speakers": [{
+            "firstName": "Paul",
+            "lastName": "Marx",
+            "position": "",
+            "institution": "Universität Siegen",
+            "origin": "Siegen",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "André",
+            "lastName": "Marchand",
+            "position": "",
+            "institution": "Westfälische Wilhelms-Universität",
+            "origin": "Siegen",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+
+    }, {
+        "time": "11:30",
+        "type": "talk",
+        "topic": "The Choice and Effects of Movie Previews in Video-on-demand Movie Services",
+        "description": "",
+        "speakers": [{
+            "firstName": "Yong",
+            "lastName": "Liu",
+            "position": "",
+            "institution": "University of Arizona",
+            "origin": "",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "12:00",
+        "type": "break",
+        "topic": "Lunch"
+    }, {
+        "time": "13:00",
+        "type": "talk",
+        "topic": "Is Movie Success a Judgment Device? When More is NOT Better",
+        "description": "",
+        "speakers": [{
+            "firstName": "Michaela",
+            "lastName": "Addis",
+            "position": "",
+            "institution": "Rome III Universität/SDA Bocconi — joint work with Morris B. Holbrook",
+            "origin": "Rom",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "13:30",
+        "type": "talk",
+        "topic": "Is it better to Burn than to Fade Away? Estimating the Value of Death for Celebrities",
+        "description": "",
+        "speakers": [{
+            "firstName": "Abishek",
+            "lastName": "Borah",
+            "position": "",
+            "institution": "University of Washington",
+            "origin": "",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Andrea",
+            "lastName": "Ordanini",
+            "position": "",
+            "institution": "Bocconi University",
+            "origin": "",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Apurv",
+            "lastName": "Jain",
+            "position": "",
+            "institution": "Microsoft",
+            "origin": "",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "14:00",
+        "type": "other",
+        "topic": "Science Meets Industry “Speed Dating”",
+        "description": "Some time for informal exchanges between industry practitioners and entertainment scholars",
+        "speakers": []
+    }, {
+        "time": "15:00",
+        "type": "break",
+        "topic": "Coffee Break"
+    }, {
+        "time": "15:15",
+        "type": "talk",
+        "topic": "Risk Effects in the Movie Industry",
+        "description": "",
+        "speakers": [{
+            "firstName": "Alexa B.",
+            "lastName": "Burmester",
+            "position": "",
+            "institution": "Universität Hamburg",
+            "origin": "Hamburg",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Michel",
+            "lastName": "Clement",
+            "position": "",
+            "institution": "Universität Hamburg",
+            "origin": "Hamburg",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+    }, {
+        "time": "15:45",
+        "type": "talk",
+        "topic": "Pre-launch Analysis of Competitive Dynamics",
+        "description": "",
+        "speakers": [{
+            "firstName": "Natasha",
+            "lastName": "Foutz",
+            "position": "",
+            "institution": "University of Virginia — joint work with Fang Wu & Vithala R. Rao",
+            "origin": "",
+            "confirmed": "",
+            "bio": "",
+            "id": ""
+        }]
+
+    }, {
+        "time": "16:15",
+        "type": "break",
+        "topic": "Coffee Break"
+    }, {
+        "time": "16:30",
+        "type": "block",
+        "topic": "Big Data 2.0: Intellectual Impulses",
+        "blocks": [{
+            "topic": "File Sharers as Market Makers?",
+            "description": "",
+            "speakers": [{
+                "firstName": "Christoph",
+                "lastName": "Ihl",
+                "position": "",
+                "institution": "Hamburg University of Technology",
+                "origin": "Hamburg",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }, {
+                "firstName": "Alexander",
+                "lastName": "Vossen",
+                "position": "",
+                "institution": "BI Norwegian Business School",
+                "origin": "",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }]
+        }, {
+            "topic": "Everyone Agrees that Series are the Better Movies! But How do They Work?",
+            "description": "",
+            "speakers": [{
+                "firstName": "Nora",
+                "lastName": "Paehler vor der Holte",
+                "position": "",
+                "institution": "Westfälische Wilhelms-Universität",
+                "origin": "Münster",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }, {
+                "firstName": "Thorsten",
+                "lastName": "Henning-Thurau",
+                "position": "",
+                "institution": "Westfälische Wilhelms-Universität",
+                "origin": "Münster",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }]
+        }]
+    }, {
+        "time": "17:00",
+        "type": "panel",
+        "topic": "Science Meets Industry Panel Discussion",
+        "description": "",
+        "speakerGroups": [{
+            "description": "Industry participants:",
+            "speakers": [{
+                "firstName": "Florian",
+                "lastName": "Kumb",
+                "position": "",
+                "institution": "ZDF",
+                "origin": "",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }, {
+                "firstName": "Malte",
+                "lastName": "Probst",
+                "position": "",
+                "institution": "Sky",
+                "origin": "",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }, {
+                "firstName": "Jan",
+                "lastName": "Rickers",
+                "position": "",
+                "institution": "Deutsche Filmakademie",
+                "origin": "",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }, {
+                "firstName": "Wilfried",
+                "lastName": "Berauer",
+                "position": "",
+                "institution": "SPIO",
+                "origin": "",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }]
+        }, {
+            "description": "Scholarly participants:",
+            "speakers": [{
+                "firstName": "Mark B.",
+                "lastName": "Houston",
+                "position": "",
+                "institution": "Texas A&M University",
+                "origin": "",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }, {
+                "firstName": "Ann-Kristin",
+                "lastName": "Knapp",
+                "position": "",
+                "institution": "Westfälische Wilhelms-Universität",
+                "origin": "Münster",
+                "confirmed": "",
+                "bio": "",
+                "id": ""
+            }]
+        }]
+    }, {
+        "time": "18:30",
+        "type": "other",
+        "topic": "Studio Babelsberg Tour",
+        "description": "CCO Christoph Fisser gives the conference participants a guided tour to the studio facilities",
+        "speakers": []
+    }, {
+        "time": "20:00",
+        "type": "other",
+        "topic": "Get-Together Science meets Industry",
+        "description": "",
+        "speakers": []
+    }]
+}
