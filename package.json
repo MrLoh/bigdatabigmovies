@@ -8,11 +8,20 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-cssmin": "^0.1.7",
+    "gulp-data": "^1.2.1",
+    "gulp-foreach": "^0.1.0",
+    "gulp-jade": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.1"
+    "gulp-sass": "^2.3.1",
+    "jade": "^1.11.0",
+    "merge-stream": "^1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLoh/bigdatabigmovies.git"
   },
   "author": "Tobias Lohse (MrLoh)",
   "license": "ISC"
