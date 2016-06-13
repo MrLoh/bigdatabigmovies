@@ -9,22 +9,20 @@
             "position": "",
             "institution": "Filmuniversität Babelsberg KONRAD WOLF",
             "origin": "Potsdam/Berlin",
-            "confirmed": "",
-            "bio": "Jannis Funk is a producer in the German film industry and at the same time Ph.D. candidate at Film University Babelsberg, where he studied film and TV production from 2009 to 2014. He is the initiator of the “Big Data, Big Movies” conference. For him, creating worlds with film is the best and most privileged job of all.",
+            "bio": "is a producer in the German film industry and at the same time Ph.D. candidate at Film University Babelsberg, where he studied film and TV production from 2009 to 2014. He is the initiator of the “Big Data, Big Movies” conference. For him, creating worlds with film is the best and most privileged job of all.",
             "id": "jannis_funk"
         }, {
             "firstName": "Thorsten",
-            "lastName": "Hennig-Thurau",
+            "lastName": "Henning-Thurau",
             "position": "",
             "institution": "Westfälische Wilhelms-Universität Münster",
             "origin": "Münster",
-            "confirmed": "",
-            "bio": "",
-            "id": ""
+            "bio": "is Professor of Marketing & Media Research at the University of Münster's Marketing Center. He has been ranked among the top German business scholars by Frankfurter Allgemeine Zeitung and Handelsblatt multiple times and has published extensively on entertainment industry-related topics and digital challenges in leading academic journals. He is a recipient of the Mallen Lifetime award for his work on filmed entertainment and was co-chair of this year's American Marketing Association Winter Educators' Conference which attracted a record-breaking crowd of 800+ scholars. Thorsten is also a dedicated movie aficionado, with a particular adoration for the works of Sergio Leone and Clint Eastwood.",
+            "id": "thorsten_hennig_thurau"
         }]
     },
     "description": [
-        "With the rise of digitalization, the film industry has been challenged by new opportunities and new players which have turned insights from smart analyses of big data into a central element of the industry’s value creation. Scholars from several disciplines, including marketing, management, and economics, have been exploring the power of big datasets and econometric models for some decades, but their insights have been largely overlooked by an industry that is traditionally characterized by Goldman’s “Nobody knows anything“ mantra. This conference intends to showcase key and novel findings from scholarly research that can provide rich insights into what is required to make successful films and TV series/shows these days. How can these insights be of value in an industry that is characterized by creativity and intuition?"
+        "With the rise of digitalization, the film industry has been challenged by new opportunities and new players which have turned insights from smart analyses of big data into a central element of the industry’s value creation. Scholars from several disciplines, including marketing, management, and economics, have been exploring the power of big datasets and econometric models for some decades, but their insights have been largely overlooked by an industry that is traditionally characterized by Goldman’s “Nobody knows anything” mantra. This conference intends to showcase key and novel findings from scholarly research that can provide rich insights into what is required to make successful films and TV series/shows these days. How can these insights be of value in an industry that is characterized by creativity and intuition?"
     ],
     "program": [{
         "time": "9:00",
@@ -37,18 +35,16 @@
             "position": "",
             "institution": "Filmuniversität Babelsberg KONRAD WOLF",
             "origin": "Potsdam/Berlin",
-            "confirmed": "",
-            "bio": "Jannis Funk is a producer in the German film industry and at the same time Ph.D. candidate at Film University Babelsberg, where he studied film and TV production from 2009 to 2014. He is the initiator of the “Big Data, Big Movies” conference. For him, creating worlds with film is the best and most privileged job of all.",
+            "bio": "is a producer in the German film industry and at the same time Ph.D. candidate at Film University Babelsberg, where he studied film and TV production from 2009 to 2014. He is the initiator of the “Big Data, Big Movies” conference. For him, creating worlds with film is the best and most privileged job of all.",
             "id": "jannis_funk"
         }, {
             "firstName": "Thorsten",
-            "lastName": "Henning-Thurau",
+            "lastName": "Hennig-Thurau",
             "position": "",
             "institution": "Westfälische Wilhelms-Universität Münster",
             "origin": "Münster",
-            "confirmed": "",
-            "bio": "",
-            "id": ""
+            "bio": "is Professor of Marketing & Media Research at the University of Münster's Marketing Center. He has been ranked among the top German business scholars by Frankfurter Allgemeine Zeitung and Handelsblatt multiple times and has published extensively on entertainment industry-related topics and digital challenges in leading academic journals. He is a recipient of the Mallen Lifetime award for his work on filmed entertainment and was co-chair of this year's American Marketing Association Winter Educators' Conference which attracted a record-breaking crowd of 800+ scholars. Thorsten is also a dedicated movie aficionado, with a particular adoration for the works of Sergio Leone and Clint Eastwood.",
+            "id": "thorsten_hennig_thurau"
         }]
     }, {
         "time": "9:15",
@@ -61,7 +57,6 @@
             "position": "",
             "institution": "Cambridge University — joint work with Renaud Legoux and Francois Carrillat",
             "origin": "Cambridge",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -76,7 +71,6 @@
             "position": "",
             "institution": "University of Texas San Antonio — joint work with S. Abraham Ravid & Bradley J. Allen",
             "origin": "",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }, {
@@ -85,7 +79,6 @@
             "position": "",
             "institution": "University of Texas San Antonio — joint work with S. Abraham Ravid & Bradley J. Allen",
             "origin": "",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -104,7 +97,6 @@
             "position": "",
             "institution": "Özyeğin University Istanbul",
             "origin": "Istanbul",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }, {
@@ -113,7 +105,6 @@
             "position": "",
             "institution": "Özyeğin University Istanbul",
             "origin": "Istanbul",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -128,7 +119,6 @@
             "position": "",
             "institution": "Universität Siegen",
             "origin": "Siegen",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }, {
@@ -137,7 +127,6 @@
             "position": "",
             "institution": "Westfälische Wilhelms-Universität Münster",
             "origin": "Siegen",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -153,7 +142,6 @@
             "position": "",
             "institution": "University of Arizona",
             "origin": "",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -172,7 +160,6 @@
             "position": "",
             "institution": "Rome III Universität/SDA Bocconi — joint work with Morris B. Holbrook",
             "origin": "Rom",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -187,7 +174,6 @@
             "position": "",
             "institution": "University of Washington",
             "origin": "",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }, {
@@ -196,7 +182,6 @@
             "position": "",
             "institution": "Bocconi University",
             "origin": "",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }, {
@@ -205,7 +190,6 @@
             "position": "",
             "institution": "Microsoft",
             "origin": "",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -230,7 +214,6 @@
             "position": "",
             "institution": "Universität Hamburg",
             "origin": "Hamburg",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }, {
@@ -239,7 +222,6 @@
             "position": "",
             "institution": "Universität Hamburg",
             "origin": "Hamburg",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -254,7 +236,6 @@
             "position": "",
             "institution": "University of Virginia — joint work with Fang Wu & Vithala R. Rao",
             "origin": "",
-            "confirmed": "",
             "bio": "",
             "id": ""
         }]
@@ -276,8 +257,7 @@
                 "position": "",
                 "institution": "Hamburg University of Technology",
                 "origin": "Hamburg",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }, {
                 "firstName": "Alexander",
@@ -285,8 +265,7 @@
                 "position": "",
                 "institution": "BI Norwegian Business School",
                 "origin": "",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }]
         }, {
@@ -298,8 +277,7 @@
                 "position": "",
                 "institution": "Westfälische Wilhelms-Universität",
                 "origin": "Münster",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }, {
                 "firstName": "Thorsten",
@@ -307,8 +285,7 @@
                 "position": "",
                 "institution": "Westfälische Wilhelms-Universität",
                 "origin": "Münster",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }]
         }]
@@ -325,8 +302,7 @@
                 "position": "",
                 "institution": "ZDF",
                 "origin": "",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }, {
                 "firstName": "Malte",
@@ -334,8 +310,7 @@
                 "position": "",
                 "institution": "Sky",
                 "origin": "",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }, {
                 "firstName": "Jan",
@@ -343,8 +318,7 @@
                 "position": "",
                 "institution": "Deutsche Filmakademie",
                 "origin": "",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }, {
                 "firstName": "Wilfried",
@@ -352,8 +326,7 @@
                 "position": "",
                 "institution": "SPIO",
                 "origin": "",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }]
         }, {
@@ -364,8 +337,7 @@
                 "position": "",
                 "institution": "Texas A&M University",
                 "origin": "",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }, {
                 "firstName": "Ann-Kristin",
@@ -373,8 +345,7 @@
                 "position": "",
                 "institution": "Westfälische Wilhelms-Universität",
                 "origin": "Münster",
-                "confirmed": "",
-                "bio": "",
+                    "bio": "",
                 "id": ""
             }]
         }]

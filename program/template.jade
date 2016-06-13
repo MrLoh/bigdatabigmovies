@@ -11,8 +11,10 @@ mixin speakers(speakers)
 				= ` (${pers.institution})`
 	each pers, i in speakers
 		div(class=["bio", pers.id])
-			img(src=`${pers.id}.jpg`)
-			p= pers.bio
+			img(src=`img/portraits/${pers.id}.jpg`)
+			p
+				strong= `${pers.firstName} ${pers.lastName} `
+				= pers.bio
 
 mixin defaultBlock(top)
 	if top.description

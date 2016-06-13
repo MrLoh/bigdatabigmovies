@@ -13,18 +13,25 @@ function showNav() {
 }
 
 function showPopup() {
-	$("#popup").slideDown()
+	hideNav()
+	$("body").css("overflow-y", "hidden")
+	$("#popup").fadeIn("fast", e => {
+		$("#popup .program-container").slideDown()
+	})
 	console.log("show popup")
 }
 
 function hidePopup() {
-	$("#popup").slideUp()
+	$("body").css("overflow-y", "auto")
+	$("#popup .program-container").slideUp( e => {
+		$("#popup").fadeOut("fast")
+	})
 	console.log("hide popup")
 }
 
 const days = ["industry_day", "science_day"]
 
-function loadProgram(callback) {
+function loadProgram() {
 	for (var day of days) {
 		var link = `program/${day}.html`
 		$.ajax(link, {async: false}).done( html => {
@@ -32,7 +39,6 @@ function loadProgram(callback) {
 		})
 		console.log(`loading ${link} via ajax`)
 	}
-	callback()
 }
 
 function focusDay(day) {
@@ -62,22 +68,22 @@ $( () => {
 
     // load program
 	hidePopup()
-	loadProgram( () => {
-		$(".program h1").click( function(e) {
-			$(this).next().slideToggle()
-			console.log(`toggle ${$(this).html().toLowerCase()} program`)
-		})
+	loadProgram()
 
-		$(".speakers .link").click( function(e) {
-			var id = $(this).attr("href")
-			console.log(id);
-			$(`.bio .id`).css("display", "block") // TODO
-		})
+	$(".program h1").click( function(e) {
+		$(this).next().slideToggle()
+		console.log(`toggle ${$(this).html().toLowerCase()} program`)
+	})
+
+	$(".speakers .link").click( function(e) {
+		var id = $(this).attr("href")
+		console.log(id)
+		$(".bio").slideUp()
+		$(this).parent().siblings(`.bio.${id}`).slideToggle()
 	})
 
     $("a[href^='program']").click( function(e) {
         e.preventDefault()
-		hideNav()
 
 		var day = $(this).attr("href").split("/")[1]
 		if (day) {
@@ -95,8 +101,9 @@ $( () => {
 	$("#popup").click( e => {
 		var c = $("#popup .program-container")
 		var leftBorder = c.offset().left
-		var rightBorder = c.offset().left + c.width()
-		if (e.pageX < leftBorder || rightBorder < e.pageX) {
+		var rightBorder = c.offset().left + c.outerWidth()
+		var bottomBorder = c.offset().top + c.outerHeight()
+		if (e.pageX < leftBorder || rightBorder < e.pageX || e.pageY > bottomBorder) {
 			hidePopup()
 		}
 	})
