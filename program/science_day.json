@@ -58,7 +58,7 @@
             "institution": "Cambridge University — joint work with Renaud Legoux and Francois Carrillat",
             "origin": "Cambridge",
             "bio": "",
-            "id": ""
+            "id": "allegre_hadida"
         }]
     }, {
         "time": "9:45",
@@ -72,7 +72,7 @@
             "institution": "University of Texas San Antonio — joint work with S. Abraham Ravid & Bradley J. Allen",
             "origin": "",
             "bio": "",
-            "id": ""
+            "id": "suman_basuroy"
         }, {
             "firstName": "Richard",
             "lastName": "Gretz",
@@ -80,7 +80,7 @@
             "institution": "University of Texas San Antonio — joint work with S. Abraham Ravid & Bradley J. Allen",
             "origin": "",
             "bio": "",
-            "id": ""
+            "id": "richard_gretz"
         }]
     }, {
         "time": "10:15",
@@ -98,7 +98,7 @@
             "institution": "Özyeğin University Istanbul",
             "origin": "Istanbul",
             "bio": "",
-            "id": ""
+            "id": "raoul_kübler"
         }, {
             "firstName": "Koen",
             "lastName": "Pauwels",
@@ -106,7 +106,7 @@
             "institution": "Özyeğin University Istanbul",
             "origin": "Istanbul",
             "bio": "",
-            "id": ""
+            "id": "koen_pauwels"
         }]
     }, {
         "time": "11:00",
@@ -120,7 +120,7 @@
             "institution": "Universität Siegen",
             "origin": "Siegen",
             "bio": "",
-            "id": ""
+            "id": "paul_marx"
         }, {
             "firstName": "André",
             "lastName": "Marchand",
@@ -128,7 +128,7 @@
             "institution": "Westfälische Wilhelms-Universität Münster",
             "origin": "Siegen",
             "bio": "",
-            "id": ""
+            "id": "andre_marchand"
         }]
 
     }, {
@@ -143,7 +143,7 @@
             "institution": "University of Arizona",
             "origin": "",
             "bio": "",
-            "id": ""
+            "id": "yong_liu"
         }]
     }, {
         "time": "12:00",
@@ -161,7 +161,7 @@
             "institution": "Rome III Universität/SDA Bocconi — joint work with Morris B. Holbrook",
             "origin": "Rom",
             "bio": "",
-            "id": ""
+            "id": "michaela_addis"
         }]
     }, {
         "time": "13:30",
@@ -175,7 +175,7 @@
             "institution": "University of Washington",
             "origin": "",
             "bio": "",
-            "id": ""
+            "id": "abishek_borah"
         }, {
             "firstName": "Andrea",
             "lastName": "Ordanini",
@@ -183,7 +183,7 @@
             "institution": "Bocconi University",
             "origin": "",
             "bio": "",
-            "id": ""
+            "id": "andrea_ordanini"
         }, {
             "firstName": "Apurv",
             "lastName": "Jain",
@@ -191,7 +191,7 @@
             "institution": "Microsoft",
             "origin": "",
             "bio": "",
-            "id": ""
+            "id": "apurv_jain"
         }]
     }, {
         "time": "14:00",
@@ -215,7 +215,7 @@
             "institution": "Universität Hamburg",
             "origin": "Hamburg",
             "bio": "",
-            "id": ""
+            "id": "alexa_burmester"
         }, {
             "firstName": "Michel",
             "lastName": "Clement",
@@ -223,7 +223,7 @@
             "institution": "Universität Hamburg",
             "origin": "Hamburg",
             "bio": "",
-            "id": ""
+            "id": "michel_clement"
         }]
     }, {
         "time": "15:45",
@@ -237,7 +237,7 @@
             "institution": "University of Virginia — joint work with Fang Wu & Vithala R. Rao",
             "origin": "",
             "bio": "",
-            "id": ""
+            "id": "natasha_foutz"
         }]
 
     }, {
@@ -257,16 +257,16 @@
                 "position": "",
                 "institution": "Hamburg University of Technology",
                 "origin": "Hamburg",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "christoph_ihl"
             }, {
                 "firstName": "Alexander",
                 "lastName": "Vossen",
                 "position": "",
                 "institution": "BI Norwegian Business School",
                 "origin": "",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "alexander_vossen"
             }]
         }, {
             "topic": "Everyone Agrees that Series are the Better Movies! But How do They Work?",
@@ -277,16 +277,16 @@
                 "position": "",
                 "institution": "Westfälische Wilhelms-Universität",
                 "origin": "Münster",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "nora_paehler_vor_der_holte"
             }, {
                 "firstName": "Thorsten",
-                "lastName": "Henning-Thurau",
+                "lastName": "Hennig-Thurau",
                 "position": "",
                 "institution": "Westfälische Wilhelms-Universität",
                 "origin": "Münster",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "thorsten_hennig_thurau"
             }]
         }]
     }, {
@@ -302,32 +302,32 @@
                 "position": "",
                 "institution": "ZDF",
                 "origin": "",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "florian_kumb"
             }, {
                 "firstName": "Malte",
                 "lastName": "Probst",
                 "position": "",
                 "institution": "Sky",
                 "origin": "",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "malte_probst"
             }, {
                 "firstName": "Jan",
                 "lastName": "Rickers",
                 "position": "",
                 "institution": "Deutsche Filmakademie",
                 "origin": "",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "jan_rickers"
             }, {
                 "firstName": "Wilfried",
                 "lastName": "Berauer",
                 "position": "",
                 "institution": "SPIO",
                 "origin": "",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "wilfried_berauer"
             }]
         }, {
             "description": "Scholarly participants:",
@@ -337,16 +337,16 @@
                 "position": "",
                 "institution": "Texas A&M University",
                 "origin": "",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "mark_houston"
             }, {
                 "firstName": "Ann-Kristin",
                 "lastName": "Knapp",
                 "position": "",
                 "institution": "Westfälische Wilhelms-Universität",
                 "origin": "Münster",
-                    "bio": "",
-                "id": ""
+                "bio": "",
+                "id": "ann_kristin_knapp"
             }]
         }]
     }, {

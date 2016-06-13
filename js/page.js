@@ -77,9 +77,11 @@ $( () => {
 
 	$(".speakers .link").click( function(e) {
 		var id = $(this).attr("href")
-		console.log(id)
-		$(".bio").slideUp()
+		$(".speakers .link").not($(this)).removeClass("bold")
+		$(".bio").not($(this).parent().siblings(`.bio.${id}`)).slideUp()
+		$(this).toggleClass("bold")
 		$(this).parent().siblings(`.bio.${id}`).slideToggle()
+		console.log(`show bio for ${id}`)
 	})
 
     $("a[href^='program']").click( function(e) {
