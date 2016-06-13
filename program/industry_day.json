@@ -4,7 +4,271 @@
 	"location": ["Vertretung des Landes Brandenburg beim Bund", "In den Ministergärten 3", "10117 Berlin"],
 	"locationLink": "https://www.google.de/maps/place/Landesvertretung+Brandenburg",
 	"description": [
-		"The Industry Day program will be announced soon."
+		""
 	],
-	"program": []
+	"program": [{
+        "time": "9:30",
+        "type": "other",
+        "topic": "Welcome",
+        "description": "",
+        "speakers": [{
+            "firstName": "Susanne",
+            "lastName": "Stürmer",
+            "position": "",
+            "institution": "Filmuniversität Babelsberg KONRAD WOLF",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Nadja",
+            "lastName": "Radojevic",
+            "position": "",
+            "institution": "Erich Pommer Institut",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "9:45",
+        "type": "talk",
+        "topic": "Opening Remarks",
+        "description": "",
+        "speakers": [{
+            "firstName": "Heiko Maas",
+            "lastName": "",
+            "position": "",
+            "institution": "Federal Minister of Justice and Consumer Protection",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "10:00",
+        "type": "talk",
+        "topic": "Keynote: Big Data And The Future of Film Financing",
+        "description": "",
+        "speakers": [{
+            "firstName": "Colin",
+            "lastName": "Brown",
+            "position": "",
+            "institution": "New York University",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "10:30",
+        "type": "break",
+        "topic": "Coffee Break"
+	}, {
+        "time": "10:45",
+        "type": "talk",
+        "topic": "Session 1: Market Research, Identifying Demand and Market Potential",
+        "description": "",
+        "speakers": [{
+            "firstName": "Sebastian",
+            "lastName": "Wernicke",
+            "position": "",
+            "institution": "Solon Strategy Consulting",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Anke",
+            "lastName": "Weber",
+            "position": "",
+            "institution": "Arbeitsgemeinschaft Fernsehforschung",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Wared",
+            "lastName": "Seger",
+            "position": "",
+            "institution": "Parrot Analytics",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "11:30",
+        "type": "other",
+        "topic": "Joint Q&A for Session 1",
+        "description": ""
+	}, {
+        "time": "11:45",
+        "type": "break",
+        "topic": "Coffee Break",
+        "description": ""
+	}, {
+        "time": "12:00",
+        "type": "talk",
+        "topic": "Session 2: Data-driven Startups in the Entertainment Industry",
+        "description": "",
+        "speakers": [{
+            "firstName": "Christian",
+            "lastName": "Kluge",
+            "position": "",
+            "institution": "Smart Pricer",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Nadira",
+            "lastName": "Amirzai",
+            "position": "",
+            "institution": "Scriptbook.io",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "David",
+            "lastName": "Stiff",
+            "position": "",
+            "institution": "Vault",
+            "bio": "",
+            "id": ""
+        }, {
+			"firstName": "René",
+            "lastName": "Bastian",
+            "position": "",
+            "institution": "Cinelytics",
+            "bio": "",
+            "id": ""
+		}]
+	}, {
+        "time": "13:00",
+        "type": "other",
+        "topic": "Joint Q&A for Session 2",
+        "description": ""
+	}, {
+        "time": "13:15",
+        "type": "break",
+        "topic": "Lunch",
+        "description": ""
+	}, {
+        "time": "14:15",
+        "type": "talk",
+        "topic": "Session 3: Marketing, Reaching Audiences",
+        "description": "",
+        "speakers": [{
+            "firstName": "Sarah",
+            "lastName": "Lewthwaite",
+            "position": "",
+            "institution": "Movio",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "David",
+            "lastName": "Croyé",
+            "position": "",
+            "institution": "Justwatchit",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Jörg",
+            "lastName": "Blumtritt",
+            "position": "",
+            "institution": "Datarella",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "15:00",
+        "type": "other",
+        "topic": "Joint Q&A for Session 3",
+        "description": ""
+	}, {
+        "time": "15:15",
+        "type": "break",
+        "topic": "Coffee Break",
+        "description": ""
+	}, {
+        "time": "15:30",
+        "type": "talk",
+        "topic": "Session 4: Strategy & Risk Management, Forecasting Success",
+        "description": "",
+        "speakers": [{
+            "firstName": "Benjamin",
+            "lastName": "Vogler",
+            "position": "",
+            "institution": "Google Germany",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Matthew Eric",
+            "lastName": "Bassett",
+            "position": "",
+            "institution": "Gower Street Analytics",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "16:00",
+        "type": "other",
+        "topic": "Joint Q&A for Session 4",
+        "description": ""
+	}, {
+        "time": "16:30",
+        "type": "break",
+        "topic": "Coffee Break",
+        "description": ""
+	}, {
+        "time": "16:45",
+        "type": "Interview: The Role of Big Data in Production & Acquisition of Content",
+        "topic": "",
+        "description": "",
+        "speakers": [{
+            "firstName": "Christoph",
+            "lastName": "Schneider",
+            "position": "",
+            "institution": "Amazon",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "17:15",
+        "type": "talk",
+        "topic": "Panel: Big Data, The Secret Recipe For Success?",
+        "description": "",
+        "speakers": [{
+            "firstName": "Marcus",
+            "lastName": "Ammon",
+            "position": "",
+            "institution": "Sky",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Martin",
+            "lastName": "Moszkowicz",
+            "position": "",
+            "institution": "Constantin Film AG",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Jan",
+            "lastName": "Mojto",
+            "position": "",
+            "institution": "EOS Entertainment, Beta Film",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Jon",
+            "lastName": "Handshin",
+            "position": "",
+            "institution": "Moviepilot",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Colin",
+            "lastName": "Brown",
+            "position": "",
+            "institution": "New York University",
+            "bio": "",
+            "id": ""
+        }, {
+            "firstName": "Marvin",
+            "lastName": "Lange",
+            "position": "",
+            "institution": "Maxdome",
+            "bio": "",
+            "id": ""
+        }]
+	}, {
+        "time": "18:00",
+        "type": "other",
+        "topic": "Networking Drinks",
+        "description": ""
+	}]
 }
