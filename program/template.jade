@@ -2,7 +2,10 @@
 mixin speakers(speakers, text="")
 	p.speakers
 		each pers, i in speakers
-			span(class="link", href=pers.id)= `${pers.firstName} ${pers.lastName}`
+			if pers.bio
+				span(class="link", href=pers.id)= `${pers.firstName} ${pers.lastName}`
+			else
+				span(href=pers.id)= `${pers.firstName} ${pers.lastName}`
 			- if( i < speakers.length-2 )
 				- if (speakers[i+1].institution !== pers.institution)
 					= ` (${pers.institution})`
@@ -18,11 +21,12 @@ mixin speakers(speakers, text="")
 				= ` (${pers.institution})`
 		= text
 	each pers, i in speakers
-		div(class=["bio", pers.id])
-			img(src=`img/portraits/${pers.id}.jpg`)
-			p
-				strong= `${pers.firstName} ${pers.lastName} `
-				= pers.bio
+		if pers.bio
+			div(class=["bio", pers.id])
+				img(src=`img/portraits/${pers.id}.jpg`)
+				p
+					strong= `${pers.firstName} ${pers.lastName} `
+					= pers.bio
 
 mixin defaultBlock(top)
 	if top.description

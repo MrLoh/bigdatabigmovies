@@ -101,6 +101,12 @@ $( () => {
 	hidePopup()
 	loadProgram()
 
+	var loc = window.location.search.split("?")[1]
+	if (loc && $.inArray(loc, days)) {
+		focusDay(loc)
+		setTimeout(showPopup, 500)
+	}
+
 	$(".program h1").click( function(e) {
 		$(this).next().slideToggle( e => {
 			balanceProgram()
