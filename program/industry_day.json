@@ -1,6 +1,8 @@
 {
 	"title": "Industry Day",
 	"date": "Sept 23",
+	"location": ["Vertretung des Landes Brandenburg beim Bund", "In den Ministergärten 3", "10117 Berlin"],
+	"locationLink": "https://www.google.de/maps/place/Landesvertretung+Brandenburg",
 	"description": [
 		"The Industry Day program will be announced soon."
 	],

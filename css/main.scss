@@ -61,6 +61,11 @@ html * {
 .container {
 	@include clearfix();
 	text-align: center;
+
+	&.large {
+		width: 120%;
+		margin-left: -10%;
+	}
 }
 
 .col {

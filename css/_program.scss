@@ -31,7 +31,6 @@
         display: block;
         box-sizing: border-box;
         margin: -1.5rem 0 0 $pagewidth - 7rem;
-        padding: 0rem 0 0 0.35rem;
         width: 1.6rem;
         height: 1.6rem;
         border: 2px solid $background;
@@ -93,7 +92,7 @@
     h2 {
         text-align: center;
         text-transform: uppercase;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin-top: 3rem;
     }
 
@@ -115,7 +114,13 @@
     .break {
         h3 {
             font-style: italic;
-            color: $background;
+            font-weight: normal;
+        }
+    }
+
+    .other {
+        h3 {
+            font-style: italic;
         }
     }
 

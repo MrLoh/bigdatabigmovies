@@ -40,7 +40,13 @@ div(class=["program", title.toLowerCase().replace(" ", "_")])
 					p= par
 			if location
 				h2 location
-				p.location= location
+				p
+					each l, i in location
+						if (i == 0)
+							a(href=locationLink, target="_blank")= l
+						else
+							= l
+						br
 			if organizers
 				h2 Chairs
 				div.organizers
