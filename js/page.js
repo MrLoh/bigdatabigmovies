@@ -1,3 +1,5 @@
+const ESC = 27
+
 function hideNav() {
 	if ($("nav").css("top") == "0px") {
 	   $("nav").css("top", "-80px")
@@ -16,7 +18,9 @@ function showPopup() {
 	hideNav()
 	$("body").css("overflow-y", "hidden")
 	$("#popup").fadeIn("fast", e => {
-		$("#popup .program-container").slideDown()
+		$("#popup .program-container").slideDown( e => {
+			balanceProgram()
+		})
 	})
 	console.log("show popup")
 }
@@ -42,17 +46,44 @@ function loadProgram() {
 }
 
 function focusDay(day) {
-	if (day === days[0]) {
-		var otherDaySelector = $(`.${days[1]}`)
-		var daySelector = $(`.${days[0]}`)
-	} else if (day === days[1]) {
-		var otherDaySelector = $(`.${days[0]}`)
-		var daySelector = $(`.${days[1]}`)
+	if (!day) {
+		for (var day of days) {
+			$(`.${day}`).children().first().next().hide()
+			$(`.${day}`).children().first().removeClass("open")
+		}
+	} else {
+		if (day === days[0]) {
+			var otherDaySelector = $(`.${days[1]}`)
+			var daySelector = $(`.${days[0]}`)
+		} else if (day === days[1]) {
+			var otherDaySelector = $(`.${days[0]}`)
+			var daySelector = $(`.${days[1]}`)
+		}
+		otherDaySelector.before(daySelector)
+		daySelector.children().first().next().show()
+		daySelector.children().first().addClass("open")
+		otherDaySelector.children().first().next().hide()
+		otherDaySelector.children().first().removeClass("open")
+		console.log(`focusing day`)
 	}
-	otherDaySelector.before(daySelector)
-	daySelector.children().first().next().show()
-	otherDaySelector.children().first().next().hide()
-	console.log(`focusing day`)
+}
+
+function linkSpeakers() {
+	$(".speakers .link").off("click").click( function(e) {
+		var id = $(this).attr("href")
+		$(".speakers .link").not($(this)).removeClass("bold")
+		$(".bio").not($(this).parent().siblings(`.bio.${id}`)).slideUp()
+		$(this).toggleClass("bold")
+		$(this).parent().siblings(`.bio.${id}`).slideToggle()
+		console.log(`show bio for ${id}`)
+	})
+}
+
+function balanceProgram() {
+	$(".program h3, .program h4, .program p").balanceText()
+	setTimeout( e => {
+		linkSpeakers()
+	}, 1000)
 }
 
 $( () => {
@@ -71,28 +102,28 @@ $( () => {
 	loadProgram()
 
 	$(".program h1").click( function(e) {
-		$(this).next().slideToggle()
+		$(this).next().slideToggle( e => {
+			balanceProgram()
+		})
+		$(this).toggleClass("open")
 		console.log(`toggle ${$(this).html().toLowerCase()} program`)
 	})
 
-	$(".speakers .link").click( function(e) {
-		var id = $(this).attr("href")
-		$(".speakers .link").not($(this)).removeClass("bold")
-		$(".bio").not($(this).parent().siblings(`.bio.${id}`)).slideUp()
-		$(this).toggleClass("bold")
-		$(this).parent().siblings(`.bio.${id}`).slideToggle()
-		console.log(`show bio for ${id}`)
-	})
+	linkSpeakers()
 
     $("a[href^='program']").click( function(e) {
         e.preventDefault()
 
 		var day = $(this).attr("href").split("/")[1]
-		if (day) {
-			focusDay(day)
-		}
+		focusDay(day)
 		showPopup()
     })
+
+	$(document).keyup( function(e) {
+		if (e.keyCode === ESC ) {
+			hidePopup()
+		}
+	})
 
 	// hide on click x
 	$("#popup .close").click( e => {

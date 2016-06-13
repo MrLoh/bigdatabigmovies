@@ -12,6 +12,8 @@
     overflow-y: scroll;
     background: rgba(black, 0.4);
 
+    text-align: center;
+
     .program-container {
         background: $foreground;
         color: $background;
@@ -54,26 +56,67 @@
     box-sizing: border-box;
     overflow-y: scroll;
 
+    p {
+        margin: 0;
+    }
+
+    & > div > .description > p {
+        margin-bottom: 1rem;
+    }
+
     h1 {
         font-size: 2rem;
         text-align: center;
-        margin: 0;
+        margin: 0 0 2rem 0;
         cursor: pointer;
+
         &:hover, &:focus {
             text-decoration: underline;
+        }
+
+        &::before {
+            content: "▲";
+            display: inline-block;
+            transform: rotate(90deg);
+            margin-right: 1rem;
+            font-size: 1.5rem;
+            vertical-align: bottom;
+            line-height: 2.7rem;
+            transition: transform 0.4s;
+        }
+
+        &.open::before {
+            transform: rotate(180deg);
         }
     }
 
     h2 {
+        text-align: center;
+        text-transform: uppercase;
         font-size: 1.2rem;
+        margin-top: 3rem;
     }
 
     h3 {
+        font-size: 1.2rem;
+        margin: 2rem 0 0 0;
+
+        .time {
+            &::after {
+                content: " — ";
+            }
+        }
+    }
+
+    h4 {
         font-size: 1rem;
     }
 
     .break {
-        h2 { font-weight: normal; }
+        h3 {
+            font-style: italic;
+            color: $background;
+        }
     }
 
     .bio {
@@ -82,6 +125,7 @@
         padding: 1rem;
         border: 2px solid $background;
         border-radius: 2rem;
+        text-align: justify;
 
         img {
             width: 5.5rem;
@@ -89,8 +133,6 @@
             float: left;
             margin: 0.3rem 1rem 0.3rem 0;
         }
-
-        p { margin: 0; }
     }
 
     ul {
@@ -99,8 +141,29 @@
         padding: 0;
     }
 
-    .speakers .link {
-        text-decoration: underline;
-        cursor: pointer;
+    .speakers {
+        margin: 0;
+
+        .link {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .speakerGroups {
+        p {
+            display: inline;
+        }
+    }
+
+    .blocks {
+        // list-style-type: square;
+
+        li {
+            margin: 0 4rem;
+        }
+        h4 {
+            margin: 1rem 0 0 0;
+        }
     }
 }

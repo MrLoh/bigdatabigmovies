@@ -1,14 +1,22 @@
 //- Declaration
-mixin speakers(speakers)
+mixin speakers(speakers, text="")
 	p.speakers
 		each pers, i in speakers
 			span(class="link", href=pers.id)= `${pers.firstName} ${pers.lastName}`
-			- if( i < speakers.length-1 )
-				- if( speakers[i+1].institution !== pers.institution )
+			- if( i < speakers.length-2 )
+				- if (speakers[i+1].institution !== pers.institution)
 					= ` (${pers.institution})`
 				= ", "
+			- else if (i === speakers.length-2)
+				- if (speakers[i+1].institution !== pers.institution)
+					= ` (${pers.institution})`
+				- if (speakers.length > 2)
+					= ", and "
+				- else
+					= " and "
 			- else
 				= ` (${pers.institution})`
+		= text
 	each pers, i in speakers
 		div(class=["bio", pers.id])
 			img(src=`img/portraits/${pers.id}.jpg`)
@@ -24,21 +32,25 @@ mixin defaultBlock(top)
 
 //- Use
 div(class=["program", title.toLowerCase().replace(" ", "_")])
-	h1= `${date} | ${title}`
+	h1(class=title.toLowerCase().split(" ")[0])= `${date} | ${title}`
 	div
-		if description
-			div.description
+		div.description
+			if description
 				each par in description
 					p= par
-		if organizers
-			div.organizers
-				p= organizers.description
-				+speakers(organizers.chairs)
+			if location
+				h2 location
+				p.location= location
+			if organizers
+				h2 Chairs
+				div.organizers
+					+speakers(organizers.chairs, " will serve as conference co-chairs.")
 		if program.length
+			h2 Programme
 			ul.agenda
 				each top in program
 					li(class=top.type)
-						h2
+						h3
 							span.time= top.time
 							= ` ${top.topic}`
 						case top.type
@@ -49,9 +61,9 @@ div(class=["program", title.toLowerCase().replace(" ", "_")])
 								if top.description
 									p.description= top.description
 								ul.blocks
-									li.talk
-										each block in top.blocks
-											h3= block.topic
+									each block in top.blocks
+										li.talk
+											h4= block.topic
 											+defaultBlock(block)
 							when "panel"
 								+defaultBlock(top)
