@@ -81,6 +81,11 @@ html * {
 		margin: 2.5%;
 	}
 
+	&.col-2x3 {
+		width: 61.667%;
+		margin: 2.5%;
+	}
+
 	&.col-4 {
 		width: 22%;
 		margin: 1.5%;
@@ -337,33 +342,27 @@ main {
 	}
 }
 
-footer.container {
+footer {
+	@include clearfix();
 	background: $foreground;
 	color: $background;
 	box-shadow: 0.5rem rgba(black, 0.3);
 	margin-top: 5rem;
 	padding: 2rem 0;
 
-	text-align: left;
-
-	.logos {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-
-		img {
-			height: 3rem;
-			width: auto;
-		}
-	}
-
-	* {
+	& > div {
 		width: 90%;
 		max-width: $pagewidth;
 		margin: 0 auto;
-		&:last-child {
-			margin-bottom: 0;
-		}
+	}
+
+	.col img {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	p, h3 {
+		text-align: left;
 	}
 
 	a {

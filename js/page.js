@@ -33,7 +33,7 @@ function hidePopup() {
 	console.log("hide popup")
 }
 
-const days = ["industry_day", "science_day"]
+const days = ["science_day", "industry_day"]
 
 function loadProgram() {
 	for (var day of days) {
