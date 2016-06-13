@@ -29,6 +29,12 @@ html, body {
 	color: $foreground;
 }
 
+.right {
+	float: right;
+	display: inline-block;
+	text-align: right;
+}
+
 html * {
 	z-index: 2;
 	position: relative;
