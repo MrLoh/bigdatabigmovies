@@ -134,7 +134,7 @@ $( () => {
 	})
 
 	// hide on click x
-	$("#popup .close").click( e => {
+	$("#popup .main-link").click( e => {
 		hidePopup()
 	})
 
