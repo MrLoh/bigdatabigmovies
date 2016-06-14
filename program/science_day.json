@@ -261,26 +261,10 @@
         "speakerGroups": [{
             "description": "Industry participants:",
             "speakers": [{
-                "firstName": "Florian",
-                "lastName": "Kumb",
-                "institution": "ZDF",
-                "id": "florian_kumb"
-            }, {
-                "firstName": "Malte",
-                "lastName": "Probst",
-                "institution": "Sky",
-                "id": "malte_probst"
-            }, {
-                "firstName": "Jan",
-                "lastName": "Rickers",
-                "institution": "Deutsche Filmakademie",
-                "id": "jan_rickers"
-            }, {
-                "firstName": "Wilfried",
-                "lastName": "Berauer",
-                "institution": "SPIO",
-                "id": "wilfried_berauer"
-            }]
+                "firstName": "to be announced soon",
+                "lastName": "",
+                "institution": ""
+                }]
         }, {
             "description": "Scholarly participants:",
             "speakers": [{
