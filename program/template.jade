@@ -53,6 +53,7 @@ div(class=["program", title.toLowerCase().replace(" ", "_")])
 						br
 			if organizers
 				h2 Chairs
+				p!= organizers.description
 				div.organizers
 					+speakers(organizers.chairs, " will serve as conference co-chairs.")
 		if program.length
