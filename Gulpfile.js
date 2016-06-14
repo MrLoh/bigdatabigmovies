@@ -10,6 +10,11 @@ const path = require('path')
 const uglify = require('gulp-uglify')
 const babel = require('gulp-babel');
 
+function requireUncached($module) {
+    delete require.cache[require.resolve($module)]
+    return require($module)
+}
+
 
 // JADE
 
@@ -26,7 +31,7 @@ function compileJade(jsonDataFileName) {
 	return gulp
 		.src(jadeTemplate)
 		.pipe(data( (file) => {
-			return require(`${jsonBase+jsonDataFileName}.json`)
+			return requireUncached(`${jsonBase+jsonDataFileName}.json`)
 		}))
 		.pipe(jade(jadeOptions))
 		.pipe(rename(`${jsonDataFileName}.html`))
