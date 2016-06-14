@@ -125,8 +125,8 @@ a {
 		margin-top: 2rem;
 
 		&.dark {
-			background: $background;
-			color: $foreground;
+			background: none;
+			border: 3px solid $background;
 		}
 
 		&:hover, &:focus  {
