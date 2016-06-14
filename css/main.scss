@@ -124,6 +124,11 @@ a {
 		display: inline-block;
 		margin-top: 2rem;
 
+		&.dark {
+			background: $background;
+			color: $foreground;
+		}
+
 		&:hover, &:focus  {
 			background-image: linear-gradient(to bottom right, $orange, $orange 50%, $blue 50%, $blue);
 			color: $background;
@@ -369,6 +374,7 @@ footer {
 
 	p, h3 {
 		text-align: left;
+		margin-bottom: 0;
 	}
 
 	a {

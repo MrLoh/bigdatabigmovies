@@ -39,7 +39,7 @@ function loadProgram() {
 	for (var day of days) {
 		var link = `program/${day}.html`
 		$.ajax(link, {async: false}).done( html => {
-			$("#popup .program-container").append(html)
+			$("#popup .button-container").before(html)
 		})
 		console.log(`loading ${link} via ajax`)
 	}
@@ -104,7 +104,7 @@ $( () => {
 	var loc = window.location.search.split("?")[1]
 	if (loc && $.inArray(loc, days)) {
 		focusDay(loc)
-		setTimeout(showPopup, 500)
+		setTimeout(showPopup, 1000)
 	}
 
 	$(".program h1").click( function(e) {
