@@ -59,7 +59,7 @@ function focusDay(day) {
 			var otherDaySelector = $(`.${days[0]}`)
 			var daySelector = $(`.${days[1]}`)
 		}
-		otherDaySelector.before(daySelector)
+		// otherDaySelector.before(daySelector)
 		daySelector.children().first().next().show()
 		daySelector.children().first().addClass("open")
 		otherDaySelector.children().first().next().hide()
