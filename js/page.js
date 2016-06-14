@@ -102,9 +102,11 @@ $( () => {
 	loadProgram()
 
 	var loc = window.location.search.split("?")[1]
-	if (loc && $.inArray(loc, days)) {
+	console.log(loc)
+	if (loc && $.inArray(loc, days) >= 0) {
+		console.log("show as science day site")
 		focusDay(loc)
-		setTimeout(showPopup, 1000)
+		setTimeout(showPopup, 500)
 	}
 
 	$(".program h1").click( function(e) {

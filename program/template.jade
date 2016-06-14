@@ -47,7 +47,7 @@ div(class=["program", title.toLowerCase().replace(" ", "_")])
 				p
 					each l, i in location
 						if (i == 0)
-							a(href=locationLink, target="_blank")= l
+							a(href=locationLink, target="_blank")!= l
 						else
 							= l
 						br
