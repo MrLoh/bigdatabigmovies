@@ -6,7 +6,6 @@ $blue: #259DFF;
 
 $pagewidth: 48rem;
 
-$scfont: "ff-meta-sc-web-pro", sans-serif;
 $font: "ff-meta-web-pro", sans-serif;
 
 @import 'program';
@@ -307,10 +306,6 @@ main {
 	ul {
 		list-style-type: none;
 		padding: 0;
-
-		.def {
-			font-family: $scfont;
-		}
 	}
 
 	.logos {
@@ -339,7 +334,6 @@ main {
 
 		.institution {
 			font-size: 0.8rem;
-			font-family: $scfont;
 		}
 
 		@media (max-width: 640px) {

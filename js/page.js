@@ -119,7 +119,7 @@ $( () => {
 
 	linkSpeakers()
 
-    $("a[href^='program']").click( function(e) {
+    $(".program-link").click( function(e) {
         e.preventDefault()
 
 		var day = $(this).attr("href").split("/")[1]
