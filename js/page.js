@@ -125,6 +125,8 @@ $( () => {
 		var day = $(this).attr("href").split("/")[1]
 		focusDay(day)
 		showPopup()
+
+		return false
     })
 
 	$(document).keyup( function(e) {
