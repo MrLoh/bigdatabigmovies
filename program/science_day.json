@@ -252,9 +252,19 @@
                 "bio": "is Professor of Marketing & Media Research at the University of Münster's Marketing Center. He has been ranked among the top German business scholars by Frankfurter Allgemeine Zeitung and Handelsblatt multiple times and has published extensively on entertainment industry-related topics and digital challenges in leading academic journals. He is a recipient of the Mallen Lifetime award for his work on filmed entertainment and was co-chair of this year's American Marketing Association Winter Educators' Conference which attracted a record-breaking crowd of 800+ scholars. Thorsten is also a dedicated movie aficionado, with a particular adoration for the works of Sergio Leone and Clint Eastwood.",
                 "id": "thorsten_hennig_thurau"
             }]
+        }, {
+            "topic": "Computers Evaluating Screenplays? Automatic Elicitation of Narrativity From Big Data",
+            "description": "",
+            "speakers": [{
+                "firstName": "Tom",
+                "lastName": "van Laer",
+                "institution": "City University London",
+                "bio": "is Senior Lecturer in Marketing at Cass Business School, City University London, UK. His research appears in premier and leading academic journals, including the Journal of Consumer Research, Journal of Management Information Systems, International Journal of Research in Marketing, Journal of Business Ethics, Journal of Interactive Marketing, etcetera. Tom’s publications reflect his interest in storytelling, social media, and consumer behaviour. Previously, he was Assistant Professor at ESCP Europe Business School and a visiting scholar at the Universities of Sydney and New South Wales in Australia. He holds a doctorate in marketing (PhD) from Maastricht University, the Netherlands.",
+                "id": "tom_van_laer"
+            }]
         }]
     }, {
-        "time": "17:00",
+        "time": "17:15",
         "type": "panel",
         "topic": "Science Meets Industry Panel Discussion",
         "description": "",
