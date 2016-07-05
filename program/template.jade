@@ -51,6 +51,9 @@ div(class=["program", title.toLowerCase().replace(" ", "_")])
 						else
 							= l
 						br
+			if accommodation
+				h2 accommodation
+				p!= accommodation
 			if organizers
 				h2 Chairs
 				p!= organizers.description
