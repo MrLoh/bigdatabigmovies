@@ -150,4 +150,14 @@ $( () => {
 			hidePopup()
 		}
 	})
+
+	$(".tooltip-anchor").mouseenter( function(e) {
+		var ttid = $(this).attr("tooltip")
+		$(`#tooltip-${ttid}`).fadeIn(200)
+		console.log(`tooltip ${ttid} activated`)
+	})
+	$(".tooltip").mouseleave( function(e) {
+		$(".tooltip").fadeOut(200)
+		console.log("hide tooltip")
+	})
 })
