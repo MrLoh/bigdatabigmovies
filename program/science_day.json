@@ -272,40 +272,38 @@
         }, {
             "time": "17:15",
             "type": "panel",
-            "topic": "Science Meets Industry Panel Discussion",
+            "topic": "Let‘s Explore the Power of Big Data Together | Science-Meets-Industry Panel",
             "description": "",
             "speakerGroups": [{
-                "description": "Industry participants:",
+                "description": "Industry participants include:",
                 "speakers": [{
                     "firstName": "Wilfried",
                     "lastName": "Berauer",
                     "institution": "SPIO",
                     "bio": "",
                     "id": ""
-                },
-                    {
-                        "firstName": "Florian",
-                        "lastName": "Kumb",
-                        "institution": "ZDF",
-                        "bio": "",
-                        "id": ""
-                    },
-                    {
-                        "firstName": "Michael",
-                        "lastName": "Kölmel",
-                        "institution": "Weltkino (inquired)",
-                        "bio": "",
-                        "id": ""
-                    },{
-                        "firstName": "Malte",
-                        "lastName": "Probst",
-                        "institution": "Sky",
-                        "bio": "",
-                        "id": ""
-                    }]
+                }, {
+                    "firstName": "Andreas",
+                    "lastName": "Kramer",
+                    "institution": "former Director and Vice-President of HDF Kino e.V.",
+                    "bio": "",
+                    "id": ""
+                }, {
+                    "firstName": "Malte",
+                    "lastName": "Probst",
+                    "institution": "Sky",
+                    "bio": "",
+                    "id": ""
+                }]
             }, {
-                "description": "Scholarly participants:",
+                "description": "Scholarly participants will include:",
                 "speakers": [{
+                    "firstName": "Suman",
+                    "lastName": "Basuroy",
+                    "institution": "University of Texas San Antonio — joint work with S. Abraham Ravid & Bradley J. Allen",
+                    "bio": "(Ph.D. University of Pittsburgh, M.S. Carnegie-Mellon University, B.A. Brandeis University) is Department Chair, Professor of Marketing, and Graham Weston Endowed Professor at the College of Business, University of Texas at San Antonio. His research on various cultural products (motion pictures, video games, fashion) has been published in Management Science, Journal of Marketing, Journal of Marketing Research, International Journal of Research in Marketing and other journals. He is a co-recipient of the Werner Pommerehne Prize for the best paper published in the Journal of Cultural Economics. He received the 2009 Carol and Bruce Mallen Lifetime Achievement Award for Published Scholarly Contributions to Motion Picture Industry Studies from UCLA’s Anderson School of Management. He is on the Editorial Review Board of Marketing Letters and the Journal of Retailing.",
+                    "id": "suman_basuroy"
+                }, {
                     "firstName": "Mark B.",
                     "lastName": "Houston",
                     "institution": "Texas A&M University",
@@ -323,7 +321,7 @@
             "time": "18:30",
             "type": "other",
             "topic": "Studio Babelsberg Tour",
-            "description": "CCO Christoph Fisser gives the conference participants a guided tour to the studio facilities",
+            "description": "The conference participants will get a guided tour to the studio facilities",
             "speakers": []
         }, {
             "time": "or 18:30",
