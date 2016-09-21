@@ -1,301 +1,283 @@
 {
-  "title": "Industry Day",
-  "date": "Sept 23",
-  "location": [
-    "Vertretung des Landes Brandenburg beim Bund",
-    "In den Ministergärten 3",
-    "10117 Berlin"
-  ],
-  "locationLink": "https://www.google.de/maps/place/Landesvertretung+Brandenburg",
-  "accommodation": "We have arranged a hotel with a special conference rate. Room contingency is limited – <a href='http://kongresshotelpotsdam.eventbrite.de' target='_blank'>please book at your earliest convenience</a>!",
-  "description": [
-    "Moderation Thorsten Zarges, Chief Reporter DWDL.de"
-  ],
-  "program": [
-    {
-      "time": "9:30",
-      "type": "other",
-      "topic": "Welcome",
-      "description": "",
-      "speakers": [
+    "title": "Industry Day",
+    "date": "Sept 23",
+    "location": [
+        "Vertretung des Landes Brandenburg beim Bund",
+        "In den Ministergärten 3",
+        "10117 Berlin"
+    ],
+    "locationLink": "https://www.google.de/maps/place/Landesvertretung+Brandenburg",
+    "accommodation": "We have arranged a hotel with a special conference rate. Room contingency is limited – <a href='http://kongresshotelpotsdam.eventbrite.de' target='_blank'>please book at your earliest convenience</a>!",
+    "description": [
+        "Moderation Thorsten Zarges, Chief Reporter DWDL.de"
+    ],
+    "program": [
         {
-          "firstName": "Martina",
-          "lastName": "Münch",
-          "position": "",
-          "institution": "Mininster of Science, Research and Culture, Brandenburg",
-          "bio": "",
-          "id": ""
+            "time": "9:30",
+            "type": "other",
+            "topic": "Welcome",
+            "description": "",
+            "speakers": [{
+                    "firstName": "Susanne",
+                    "lastName": "Stürmer",
+                    "position": "",
+                    "institution": "President, Filmuniversität Babelsberg Konrad Wolf",
+                    "bio": "",
+                    "id": ""
+                },
+                {
+                    "firstName": "Nadja",
+                    "lastName": "Radojevic",
+                    "position": "",
+                    "institution": "Erich Pommer Institut",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
         },
         {
-          "firstName": "Susanne",
-          "lastName": "Stürmer",
-          "position": "",
-          "institution": "Filmuniversität Babelsberg Konrad Wolf",
-          "bio": "",
-          "id": ""
+            "time": "9:45",
+            "type": "talk",
+            "topic": "Opening Remarks",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Heiko Maas",
+                    "lastName": "",
+                    "position": "",
+                    "institution": "Federal Minister of Justice and Consumer Protection",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
         },
         {
-          "firstName": "Nadja",
-          "lastName": "Radojevic",
-          "position": "",
-          "institution": "Erich Pommer Institut",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "9:45",
-      "type": "talk",
-      "topic": "Opening Remarks",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Heiko Maas",
-          "lastName": "",
-          "position": "",
-          "institution": "Federal Minister of Justice and Consumer Protection",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "10:00",
-      "type": "talk",
-      "topic": "Keynote: Algorithms - Creativity’s New Best Friend",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Colin",
-          "lastName": "Brown",
-          "position": "",
-          "institution": "New York University",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "10:30",
-      "type": "talk",
-      "topic": "Market Research: Identifying Demand and Market Potential",
-      "description": "",
-      "speakers": []
-    },
-    {
-      "time": "10:30",
-      "type": "talk",
-      "topic": "Reaching the Cinema Power Users – With Movie Taste Based Audience Targeting",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "David",
-          "lastName": "Croyé",
-          "position": "Founder/CEO",
-          "institution": "Justwatch",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "type": "talk",
-      "topic": "At the End of the Day, it's the User who Watches the Video ...  –  AGF's Multiscreen Measurement for the German Market ",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Bernhard",
-          "lastName": "Engel",
-          "position": "Research Director",
-          "institution": "ZDF Medienforschung, AG Fernsehforschung",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "type": "talk",
-      "topic": "A Tale of Two Shows – Using Data to Engineer Audience Success",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Sebastian",
-          "lastName": "Wernicke",
-          "position": "Head of Data Science",
-          "institution": "Solon Strategy Consulting",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "12:00",
-      "type": "break",
-      "topic": "Coffee Break",
-      "description": ""
-    },
-    {
-      "time": "12:30",
-      "type": "talk",
-      "topic": " Marketing - Reaching Audiences",
-      "description": "",
-      "speakers": []
-    },
-    {
-      "time": "12:30",
-      "type": "talk",
-      "topic": "Can Data Drive Attendance? An Exploration of How Cinema Chains and Film Studios Are Using Big Data to Improve Box Office Performance",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Sarah",
-          "lastName": "Lewthwaite",
-          "position": "Partnerships Director EMEA",
-          "institution": "Movio",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "type": "talk",
-      "topic": "Winning the Moments that Matter – How Google Helps the Movie Industry to Connect with their Audience ",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Benjamin",
-          "lastName": "Vogler",
-          "position": "Industry Manager Media & Entertainment",
-          "institution": "Google Germany",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "type": "break",
-      "topic": "Lunch",
-      "description": ""
-    },
-    {
-      "time": "14:30",
-      "type": "talk",
-      "topic": "Session 3: Strategy & Risk Management: Forecasting Success",
-      "description": "",
-      "speakers": []
-    },
-    {
-      "time": "14:30",
-      "type": "talk",
-      "topic": "The Talent, The Date, The Box Office – How Data Can Drive Dating Decisions and More.",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Matthew Eric",
-          "lastName": "Bassett",
-          "position": "Founder CTO",
-          "institution": "Gower Street Analytics",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "type": "talk",
-      "topic": "Better Film Business Through Data-Driven Decision Support Tools",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Rene",
-          "lastName": "Bastian",
-          "position": "CEO",
-          "institution": "Cynelitics",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "15:30",
-      "type": "talk",
-      "topic": "Digital – A Paradigm Shift in Film Scheduling in Cinemas",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Claudiu",
-          "lastName": "Tanasescu",
-          "position": "CEO",
-          "institution": "Cinema Intelligence",
-          "bio": "",
-          "id": ""
-        }
-      ]
-    },
-    {
-      "time": "16:00",
-      "type": "break",
-      "topic": "Coffee Break",
-      "description": ""
-    },
-    {
-      "time": "16:30",
-      "type": "talk",
-      "topic": "Panel: Big Data, The Secret Recipe For Success?",
-      "description": "",
-      "speakers": [
-        {
-          "firstName": "Colin",
-          "lastName": "Brown",
-          "position": "",
-          "institution": "New York University/Slated",
-          "bio": "",
-          "id": ""
+            "time": "10:00",
+            "type": "talk",
+            "topic": "Keynote: Algorithms - Creativity’s New Best Friend",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Colin",
+                    "lastName": "Brown",
+                    "position": "",
+                    "institution": "New York University",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
         },
         {
-          "firstName": "Frank",
-          "lastName": "Jastfelder",
-          "position": "Head of Drama Production",
-          "institution": "Sky Germany",
-          "bio": "",
-          "id": ""
+            "type": "section",
+            "topic": "Market Research: Identifying Demand and Market Potential —"
         },
         {
-          "firstName": "Marvin",
-          "lastName": "Lange",
-          "position": "CEO",
-          "institution": "Maxdome",
-          "bio": "",
-          "id": ""
+            "time": "10:30",
+            "type": "talk",
+            "topic": "A Tale of Two Shows – Using Data to Engineer Audience Success",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Sebastian",
+                    "lastName": "Wernicke",
+                    "position": "Head of Data Science",
+                    "institution": "Solon Strategy Consulting",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
         },
         {
-          "firstName": "Sabine",
-          "lastName": "De Mardt",
-          "position": "Director Fiction & Film",
-          "institution": "Warner Bros. International Television Production Deutschland GmbH",
-          "bio": "",
-          "id": ""
+            "time": "11:00",
+            "type": "talk",
+            "topic": "At the End of the Day, it's the User who Watches the Video ...  –  AGF's Multiscreen Measurement for the German Market ",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Bernhard",
+                    "lastName": "Engel",
+                    "position": "Research Director",
+                    "institution": "ZDF Medienforschung, AG Fernsehforschung",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
         },
         {
-          "firstName": "Jan",
-          "lastName": "Mojto",
-          "position": "",
-          "institution": "EOS Entertainment, Beta Film",
-          "bio": "",
-          "id": ""
+            "time": "11:30",
+            "type": "break",
+            "topic": "Coffee Break",
+            "description": ""
+        },
+        {
+            "time": "12:00",
+            "type": "talk",
+            "topic": "Reaching the Cinema Power Users – With Movie Taste Based Audience Targeting",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "David",
+                    "lastName": "Croyé",
+                    "position": "Founder/CEO",
+                    "institution": "Justwatch",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "topic": "Strategic Marketing: Reaching Audiences —"
+        },
+        {
+            "time": "12:30",
+            "type": "talk",
+            "topic": "Can Data Drive Attendance? An Exploration of How Cinema Chains and Film Studios Are Using Big Data to Improve Box Office Performance",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Sarah",
+                    "lastName": "Lewthwaite",
+                    "position": "Partnerships Director EMEA",
+                    "institution": "Movio",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "time": "13:00",
+            "type": "talk",
+            "topic": "Winning the Moments that Matter – How to Convert Consumer Signals into a Successful Movie Release",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Benjamin",
+                    "lastName": "Vogler",
+                    "position": "Industry Manager Media & Entertainment",
+                    "institution": "Google Germany",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "time": "13:30",
+            "type": "break",
+            "topic": "Lunch",
+            "description": ""
+        },
+        {
+            "type": "section",
+            "topic": "Risk Management: Forecasting Success —"
+        },
+        {
+            "time": "14:30",
+            "type": "talk",
+            "topic": "The Talent, The Date, The Box Office – How Data Can Drive Dating Decisions and More.",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Matthew Eric",
+                    "lastName": "Bassett",
+                    "position": "Founder CTO",
+                    "institution": "Gower Street Analytics",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "time": "15:00",
+            "type": "talk",
+            "topic": "Better Film Business Through Data-Driven Decision Support Tools",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Rene",
+                    "lastName": "Bastian",
+                    "position": "CEO",
+                    "institution": "Cynelitics",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "time": "15:30",
+            "type": "talk",
+            "topic": "Digital – A Paradigm Shift in Film Scheduling in Cinemas",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Claudiu",
+                    "lastName": "Tanasescu",
+                    "position": "CEO",
+                    "institution": "Cinema Intelligence",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "time": "16:00",
+            "type": "break",
+            "topic": "Coffee Break",
+            "description": ""
+        },
+        {
+            "time": "16:30",
+            "type": "talk",
+            "topic": "Panel: Big Data, The Secret Recipe For Success?",
+            "description": "",
+            "speakers": [
+                {
+                    "firstName": "Colin",
+                    "lastName": "Brown",
+                    "position": "",
+                    "institution": "New York University/Slated",
+                    "bio": "",
+                    "id": ""
+                },
+                {
+                    "firstName": "Frank",
+                    "lastName": "Jastfelder",
+                    "position": "Head of Drama Production",
+                    "institution": "Sky Germany",
+                    "bio": "",
+                    "id": ""
+                },
+                {
+                    "firstName": "Marvin",
+                    "lastName": "Lange",
+                    "position": "CEO",
+                    "institution": "Maxdome",
+                    "bio": "",
+                    "id": ""
+                },
+                {
+                    "firstName": "Sabine",
+                    "lastName": "De Mardt",
+                    "position": "Director Fiction & Film",
+                    "institution": "Warner Bros. International Television Production Deutschland GmbH",
+                    "bio": "",
+                    "id": ""
+                },
+                {
+                    "firstName": "Jan",
+                    "lastName": "Mojto",
+                    "position": "",
+                    "institution": "EOS Entertainment, Beta Film",
+                    "bio": "",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "type": "other",
+            "topic": "Networking Drinks",
+            "description": "Get-Together Science meets Industry"
         }
-      ]
-    },
-    {
-      "time": "18:00",
-      "type": "other",
-      "topic": "Networking Drinks",
-      "description": "Get-Together Science meets Industry"
-    }
-  ]
+    ]
 }
